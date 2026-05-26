@@ -9,6 +9,7 @@ public class question1 {
             sum = sum+i;
         }
         System.out.println(sum);
+        Sc.close();
 
     }
     
