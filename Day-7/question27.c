@@ -1,0 +1,19 @@
+//Write a program to Recursive sum of digits.
+#include<stdio.h>
+int sumOfDigits(int n){
+    if(n==0){
+        return 0;
+    }
+    else{
+        return (n%10) + sumOfDigits(n/10);
+
+    }}
+    int main(){
+        int n;
+        printf("enter the number:");
+        scanf("%d", &n);
+        int result= sumOfDigits(n);
+        printf("the sum of digits of %d is %d",n , result);
+    
+    return 0;
+}
