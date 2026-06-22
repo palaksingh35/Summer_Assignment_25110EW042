@@ -28,3 +28,6 @@ int main() {
 
     return 0;
 }
+// if(i == 1 || i == num || j == 1 || j == num)
+   // printf("*");
+   //  for i=1 j is running 5 times
